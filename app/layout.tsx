@@ -21,22 +21,32 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     </html>
   );
 }
-import { Playfair_Display } from 'next/font/google'
+import './globals.css'
+import { Playfair_Display, Outfit } from 'next/font/google'
 
 const playfair = Playfair_Display({
   subsets: ['latin'],
   weight: ['400', '600'],
+  variable: '--font-playfair',
+})
+
+const outfit = Outfit({
+  subsets: ['latin'],
+  weight: ['300', '400', '500'],
+  variable: '--font-outfit',
 })
 
 export const metadata = {
-  title: 'Kokoro',
-  description: 'Creations with soul.',
+  title: 'Kokoro Studio',
+  description: 'Creations with soul. Mind, Heart & Spirit.',
 }
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={playfair.className}>{children}</body>
+      <body className={`${playfair.variable} ${outfit.variable} font-sans`}>
+        {children}
+      </body>
     </html>
   )
 }
