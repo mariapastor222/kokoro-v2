@@ -16,7 +16,7 @@ const outfit = Outfit({
 
 export const metadata: Metadata = {
   title: "Kokoro Studio",
-  description: "Creations with soul. Mind, Heart & Spirit.",
+  description: "Creations with soul. Mind, Heart & Spirit. Limited drops",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
