@@ -8,7 +8,8 @@ export default function Home() {
         <div className="grid md:grid-cols-5">
           <div className="p-8 md:col-span-2 flex flex-col justify-center gap-4">
             <h1 className="font-[var(--font-playfair)] text-4xl md:text-5xl leading-tight">
-              Crafted pieces for everyday ritual.
+              Creations with soul. 
+              Mind-Heart-Spirit
             </h1>
             <p className="text-neutral-600">
               Limited drops. Handmade. Sustainable. Quiet, elegant and functional.
