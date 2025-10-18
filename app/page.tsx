@@ -7,13 +7,14 @@ export default function Home() {
       <section className="card overflow-hidden">
         <div className="grid md:grid-cols-5">
           <div className="p-8 md:col-span-2 flex flex-col justify-center gap-4">
-            <h1 className="font-[var(--font-playfair)] text-4xl md:text-5xl leading-tight">
-              Creations with soul. 
-              Mind-Heart-Spirit
-            </h1>
-            <p className="text-neutral-600">
-              Limited drops. Handmade. Sustainable. Quiet, elegant and functional.
-            </p>
+           <h1 className="text-6xl font-light tracking-tight leading-tight">
+  Creations with soul.
+</h1>
+<p className="mt-3 text-xl text-neutral-700 italic">
+  Mind, Heart & Spirit. 
+  Limited drops Handmade
+</p>
+
             <div className="flex gap-3">
               <a className="btn btn-primary" href="#collection">View Collection</a>
               <a className="btn btn-ghost" href="#about">About</a>
