@@ -13,3 +13,17 @@ body { @apply bg-cream text-neutral-900 antialiased; }
 .btn-primary { @apply bg-black text-white hover:bg-neutral-800; }
 .btn-ghost { @apply bg-white text-black hover:bg-neutral-100 border border-neutral-200; }
 .badge { @apply inline-flex items-center rounded-full px-3 py-1 text-xs font-medium bg-sage/40 text-neutral-800; }
+
+:root {
+  --font-playfair: 'Playfair Display', serif;
+  --font-outfit: 'Outfit', sans-serif;
+}
+
+h1, h2, h3 {
+  font-family: var(--font-playfair);
+}
+
+body, p, a, button {
+  font-family: var(--font-outfit);
+}
+
